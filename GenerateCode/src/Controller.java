@@ -36,7 +36,7 @@ System.out.println("import org.springframework.beans.factory.annotation.Autowire
 		"import org.springframework.web.bind.annotation.PutMapping;\r\n" + 
 		"import org.springframework.web.bind.annotation.RequestBody;\r\n" + 
 		"import org.springframework.web.bind.annotation.RequestMapping;\r\n" + 
-		"import org.springframework.web.bind.annotation.RestController;"+
+		"import org.springframework.web.bind.annotation.RestController;\r\n"+
 		
 		"@RestController()\r\n" + 
 		"@RequestMapping(\"api\")\r\n" + 
@@ -86,7 +86,7 @@ System.out.println("import org.springframework.beans.factory.annotation.Autowire
 		"import org.springframework.web.bind.annotation.PutMapping;\r\n" + 
 		"import org.springframework.web.bind.annotation.RequestBody;\r\n" + 
 		"import org.springframework.web.bind.annotation.RequestMapping;\r\n" + 
-		"import org.springframework.web.bind.annotation.RestController;"+
+		"import org.springframework.web.bind.annotation.RestController;\r\n"+
 		
 		"@RestController()\r\n" + 
 		"@RequestMapping(\"api\")\r\n" + 
