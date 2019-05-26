@@ -4,8 +4,8 @@ public class ServiceImpl {
 		public static void main(String args[]) {
 			String response = "OffersResponse";
 			String sresponse = "offersResponse";
-			String entity = "User";
-			String sentity = "user";
+			String entity = "Role";
+			String sentity = "role";
 			
 			System.out.println("public class "+entity+"ServiceImpl implements "+entity+"ServiceI{\r\n" + 
 					"	\r\n" + 
@@ -43,6 +43,7 @@ public class ServiceImpl {
 					"			"+sentity+"DTO.set"+entity+"Name("+sentity+".get"+entity+"Name());\r\n" + 
 					"			"+sentity+"DTO.setPassword("+sentity+".getPassword());\r\n" + 
 					"			"+sentity+"DTO.setRole("+sentity+".getRole());\r\n" + 
+					"           "+sentity+"DTOList.add("+sentity+"DTO);\r\n"+
 					"		}\r\n" + 
 					"		return "+sentity+"DTOList;\r\n" + 
 					"	}\r\n" + 
