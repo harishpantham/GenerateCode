@@ -8,14 +8,14 @@ public class Controller {
 		String sentity = entity.toLowerCase();
 		String semicolon =";";
 		
-		/*String subinterface1 = "getAll"+entity+"s()"+semicolon;
+		String subinterface1 = "getAll"+entity+"s()"+semicolon;
 		String subinterface2 = "get"+entity+"ById(Long "+" "+sentity+"Id)"+semicolon;
 		String subinterface3 = "save"+entity+"("+entity+"DTO"+" "+sentity+"DTO"+")"+semicolon;
 		String subinterface4 = "update"+entity+"("+entity+"DTO"+" "+sentity+"DTO"+")"+semicolon;
 		String subinterface5 = "delete"+entity+"(Long "+" "+sentity+"Id)"+semicolon;
 		
 		
-		
+/*		
 		String interface1 ="OffersResponse"+" "+subinterface1;
 		String interface2 ="OffersResponse"+" "+subinterface2;
 		String interface3 ="OffersResponse"+" "+subinterface3;
@@ -28,7 +28,7 @@ System.out.println(interface3);
 System.out.println(interface4);			
 System.out.println(interface5);	*/		
 
-System.out.println("import org.springframework.beans.factory.annotation.Autowired;\r\n" + 
+/*System.out.println("import org.springframework.beans.factory.annotation.Autowired;\r\n" + 
 		"import org.springframework.web.bind.annotation.DeleteMapping;\r\n" + 
 		"import org.springframework.web.bind.annotation.GetMapping;\r\n" + 
 		"import org.springframework.web.bind.annotation.PathVariable;\r\n" + 
@@ -69,11 +69,11 @@ System.out.println("import org.springframework.beans.factory.annotation.Autowire
 		"    public void delete"+entity+"(@PathVariable Long "+sentity+"Id) {\r\n" + 
 		"        return "+sentity+"ServiceI.delete"+entity+"("+sentity+"Id)"+";"+"\r\n" + 
 		"    }\r\n" + 
-		"}");
+		"}");*/
 
 /******************to return the values in List type use following like List<User>**********************/
 
-/*String interface1 = "List<"+entity+"> "+ subinterface1;
+String interface1 = "List<"+entity+"> "+ subinterface1;
 String interface2 = "Optional<"+entity+"> "+subinterface2;
 String interface3 = entity+" "+subinterface3;
 String interface4 = entity+" "+subinterface4;
@@ -120,7 +120,7 @@ System.out.println("import org.springframework.beans.factory.annotation.Autowire
 		"        return "+sentity+"ServiceI.delete"+entity+"("+sentity+"Id)"+";"+"\r\n" + 
 		"    }\r\n" + 
 		"}");
-*/
+
 }
 	}
 

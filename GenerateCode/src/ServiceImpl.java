@@ -4,8 +4,8 @@ public class ServiceImpl {
 		public static void main(String args[]) {
 			String response = "OffersResponse";
 			String sresponse = "offersResponse";
-			String entity = "Role";
-			String sentity = "role";
+			String entity = "Product";
+			String sentity = "product";
 			
 			System.out.println("public class "+entity+"ServiceImpl implements "+entity+"ServiceI{\r\n" + 
 					"	\r\n" + 
